@@ -1,0 +1,9 @@
+{
+  "name": "ki-digest-assets-scripts",
+  "private": true,
+  "description": "Generatoren für die PowerPoint- und PDF-Anhänge der ki-digest-Routine. Aufruf: node gen_deck.js data.json / node gen_pdf.js data.json",
+  "dependencies": {
+    "pptxgenjs": "^3",
+    "pdfkit": "^0"
+  }
+}
