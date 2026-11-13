@@ -1,68 +1,93 @@
 {
-  "outFile": "KI-Update-2026-11-12.pptx",
-  "dateLabel": "12. NOVEMBER 2026",
+  "outFile": "KI-Update-2026-11-13.pptx",
+  "dateLabel": "13. NOVEMBER 2026",
   "subtitle": "Der tägliche KI-Digest für Privatanwender und IT-Praxis",
-  "counts": { "praxis": 3, "tipps": 1, "reg": 2, "forschung": 1 },
+  "counts": { "praxis": 4, "tipps": null, "reg": 3, "forschung": 2 },
   "praxis": [
     {
-      "title": "DeepL stellt neues Voice-Modell \"Aure\" für emotionale Sprachübersetzung vor",
-      "summary": "DeepL hat mit Aure sein nach eigenen Angaben bisher dynamischstes und ausdrucksstärkstes Sprachmodell für DeepL Voice vorgestellt. Anders als frühere Versionen, die nur eine einmalige Stimmprobe zu Beginn analysierten, wertet Aure die Audioquelle fortlaufend aus und passt Tonfall, Sprechtempo und Emotionen während des Gesprächs live an, zudem filtert es Störgeräusche, Echos und Verzerrungen heraus. Verfügbar ist Aure ab sofort in DeepL Voice und über die DeepL-API für Englisch, Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Portugiesisch und Koreanisch, weitere Sprachen sollen folgen.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/KI-Stimmen-mit-Emotionen-DeepL-stellt-neues-Modell-Aure-vor-11521062.html"
-    },
-    {
-      "title": "Budibase 4.0 vereinfacht Firmenprozesse mit Agenten-Monitoring und Freigabe-Portal",
-      "summary": "Das Open-Source-Low-Code-Tool Budibase hat Version 4.0.0 veröffentlicht. Neu sind eine Activity-Ansicht, die einzelne Schritte von Agenten und Automationen mit Status, Toolaufrufen und Fehlerdetails protokolliert, eine Projektverwaltung zum Export/Import von Abhängigkeiten inkl. Agenten und Datensätzen, sowie ein integriertes \"Requests Portal\" für Anfragen und Freigaben. Besonders relevant für IT-Abteilungen und KI-Multiplikatoren, die interne Agenten-Workflows betreiben.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Open-Source-Low-Code-Budibase-4-0-vereinfacht-Firmenprozesse-11520118.html"
-    },
-    {
-      "title": "Google DeepMind stellt Gemini Decisions API mit Modell Gemini Decision 1 vor",
-      "summary": "Google DeepMind hat mit der Gemini Decisions API und dem dahinterliegenden Modell Gemini Decision 1 ein spezialisiertes Modell vorgestellt, das keinen Fließtext generiert, sondern geschlossene Entscheidungen (Ja/Nein, Multiple-Choice, Skalenbewertung) mit Wahrscheinlichkeiten und Konfidenzwerten trifft. Das Modell verarbeitet laut Google bis zu 1.000 unabhängige Fragen pro Durchlauf über Text, Bild, Audio, Video und PDF, mit einer Antwortzeit von 150 bis 250 Millisekunden pro Urteil. Preis: 0,10 US-Dollar pro Million Eingabe-Tokens, Ausgabe-Tokens sind kostenlos; verfügbar ab sofort über Google AI Studio.",
+      "title": "Claude Meetings: Anthropic lässt Claude als Teilnehmer an Videoanrufen mitwirken",
+      "summary": "Anthropic stellt mit Claude Meetings eine Beta-Funktion vor, bei der Claude als sichtbarer Teilnehmer an Videoanrufen mitwirkt: Es kann Fragen beantworten, Dokumente und Whiteboards erstellen sowie Notizen und Aufgaben festhalten, antwortet standardmäßig schriftlich und darf mit Erlaubnis auf verbundene Tools zugreifen. Nach dem Call stehen Notizen, Transkripte und Dokumente auf einer eigenen Seite in claude.ai bereit; aus Datenschutzgründen nimmt Claude standardmäßig nicht an Calls mit externen Teilnehmern teil. Verfügbar ist die Beta zunächst nur für Google Meet und nur für Team- und Enterprise-Tarife, weitere Plattformen sollen folgen.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/gemini-decisions-google-bringt-spezialisiertes-ki-modell-fuer-schnelle-entscheidungen-statt-textgenerierung/"
-    }
-  ],
-  "tipps": [
+      "url": "https://the-decoder.de/claude-meetings-anthropic-laesst-claude-als-teilnehmer-an-videoanrufe-andocken/"
+    },
     {
-      "title": "Plan-Modus vs. Ziel-Modus: Wann du KI selbstständig arbeiten lässt – und wann nicht",
-      "summary": "Die t3n-Podcastreihe \"MeisterPrompter\" (Folge 99) erklärt zwei Arbeitsmodi in ChatGPT und Claude: Im Plan-Modus (ChatGPT: Plus-Symbol; Claude: \"/plan\") stellt die KI zunächst Rückfragen und entwickelt mit dir gemeinsam einen Plan, ohne schon etwas umzusetzen – geeignet, wenn der Weg zum Ziel noch unklar ist. Im Ziel-Modus (ChatGPT: Plus-Symbol; Claude: \"/goal\") beschreibst du stattdessen ein konkretes Endergebnis mit klaren Erfüllungskriterien, und die KI arbeitet selbstständig in mehreren Schritten darauf hin – Vorschläge sollten hier besonders kritisch geprüft werden. Empfehlung: zuerst im Ziel-Modus ein präzises Ergebnis definieren, dann im Plan-Modus den Weg dorthin erarbeiten lassen.",
-      "source": "t3n MeisterPrompter",
-      "url": "https://t3n-meisterprompter.podigee.io/99-plan-ziel-ki-modi-chatgpt-claude"
+      "title": "Google stellt günstiges Allround-Modell Gemini 4 Hydrogen vor",
+      "summary": "Google hat Gemini 4 Hydrogen vorgestellt, ein schnelles Allround-Modell für Alltags-Coding und Agenten-Workflows, das Gemini 3.8 Flash ablöst. Auf dem Artificial Analysis Intelligence Index erreicht es 51 Punkte (Stufe \"high\", bis 54 auf \"xhigh\") und übertrifft damit das größere Gemini 4 Argon, liegt aber knapp hinter Claude Sonnet 5.5 und GPT-6.1 Sol (je 55). Hydrogen kostet 1,50 US-Dollar pro Million Input- und 7,50 US-Dollar pro Million Output-Token, ist laut Google 2,5-mal schneller als Flash und erreicht 57 % auf Terminal-Bench 4.1 (zuvor 18,2 %). Das Modell ist ab sofort weltweit verfügbar, u. a. über die Gemini API, Android Studio, Antigravity und die Gemini-App.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/google-stellt-gemini-4-hydrogen-vor-schnelles-ki-modell-fuer-den-alltag-fuer-weniger-geld/"
+    },
+    {
+      "title": "Elevenlabs senkt mit Scribe v3 und v3 Live die Fehlerrate bei der Spracherkennung",
+      "summary": "Elevenlabs hat die Speech-to-Text-Modelle Scribe v3 (für Aufnahmen) und Scribe v3 Live (für Echtzeit) vorgestellt. Laut Elevenlabs macht Scribe v3 über 102 Sprachen rund ein Viertel weniger Wortfehler als der Vorgänger, besonders auf Deutsch; unabhängige Tests von Artificial Analysis bestätigen die Spitzenposition bei der Genauigkeit, das Modell ist aber langsamer und mit 3,33 US-Dollar pro 1.000 Minuten teurer als Konkurrenten von Microsoft und xAI. Scribe v3 Live soll mit geringer Latenz arbeiten; beide Modelle sind ab sofort über die ElevenAPI und ElevenAgents verfügbar.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/elevenlabs-senkt-mit-scribe-v3-und-v3-live-die-fehlerrate-bei-der-spracherkennung/"
+    },
+    {
+      "title": "Harbor: Neue App von Apple-Tochter Claris für lokale KI-Modelle auf dem Mac",
+      "summary": "Claris, die Apple-Tochter hinter FileMaker, stellt mit Harbor eine neue App zum lokalen Betrieb offener KI-Modelle auf dem Mac vor - ähnlich LM Studio. Harbor kann mindestens zwei Macs per Thunderbolt 5 zusammenschließen, um Arbeitsspeicher zu teilen, sodass sich größere Modelle als auf einem einzelnen Gerät ausführen oder mehr Anfragen gleichzeitig verarbeiten lassen; laut Claris verlassen Daten dabei nie den Mac. Welche Modelle konkret unterstützt werden, nennt Claris über ein Beispiel-Screenshot mit einem Llama-Modell hinaus nicht, ebenso fehlen Angaben zu Preis und Erscheinungstermin - Harbor befindet sich noch im Test mit Anmeldung für frühen Zugang.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Harbor-Neue-App-von-Apple-Tochter-Claris-fuer-lokale-KI-Modelle-11519932.html"
     }
   ],
   "reg": [
     {
-      "title": "EU-Omnibus-Gesetze: Deregulierungsdebatte bei Datenschutz und KI-Hochrisiko-Fristen",
-      "summary": "Bei der 5. \"KI-Woche\" der baden-württembergischen Datenschutzaufsicht (LfDI) in Stuttgart diskutierten Experten die EU-Omnibus-Pakete. Konkret: Die Hochrisiko-Pflichten des AI Act für eigenständige Systeme (Anhang III) verschieben sich auf Dezember 2027, für KI in bereits regulierten Produkten (Anhang I) auf August 2028; das Verbot von \"Nacktmacher\"-Apps nach Art. 5 AI Act gilt dagegen bereits ab Ende 2026. Laut einer Bitkom-Umfrage halten 90 Prozent der Unternehmen eine gezielte DSGVO-Reform für nötig, 88 Prozent beklagen Rechtsunsicherheit; die Digitalbranche gibt laut LobbyControl jährlich 151 Mio. Euro für EU-Lobbyarbeit aus.",
+      "title": "Länder planen Digitale-Medien-Staatsvertrag Teil 2 mit KI-Sorgfaltspflichten",
+      "summary": "Die Rundfunkkommission der Länder hat einen Diskussionsentwurf zum \"Digitale Medien-Staatsvertrag Teil 2\" (DMStV) vorgelegt. Geplant sind unter anderem, dass mindestens jede fünfte Empfehlung in algorithmischen Feeds von qualifizierten Medien mit öffentlichem Mehrwert stammt, und dass Plattformen kostenlose Direktlinks zu journalistischen Angeboten zulassen müssen. Für KI-Anbieter sollen journalistische Sorgfaltspflichten gelten: Quellen unverfälscht wiedergeben, Unsicherheiten kenntlich machen und Transparenz über Algorithmen sowie Trefferwahrscheinlichkeiten schaffen. Ob und wann die Regeln in Kraft treten, ist wegen möglicher politischer Hürden in den Ländern noch offen.",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/Omnibus-Gesetze-der-EU-und-die-Folgen-fuer-den-Datenschutz-11519738.html"
+      "url": "https://www.heise.de/news/Digitale-Medienordnung-Laender-wollen-Big-Tech-und-KI-streng-regulieren-11523302.html"
     },
     {
-      "title": "Britische Hochschulaufsicht droht mit Sanktionen wegen fehlender KI-sicherer Prüfungsformate",
-      "summary": "Die englische Hochschulaufsicht Office for Students (OfS) hat zusammen mit Advance HE eine Studie mit über 300 Befragten an 127 Universitäten veröffentlicht, wonach Studierende Hausarbeiten und Abschlussarbeiten oft unentdeckt mit KI schreiben und dabei ähnliche Noten erzielen wie ohne KI-Nutzung. Die OfS fordert verstärkt klassische Prüfungen und Präsentationen und droht mit Sanktionen, falls keine verlässlichen Prüfungsformate entwickelt werden; OfS-Strategiedirektor Josh Fleming spricht von einem \"generationenübergreifenden Risiko\" für die Glaubwürdigkeit von Hochschulabschlüssen.",
+      "title": "Australien plant verbindliche Sicherheitsregeln für Frontier-KI-Firmen",
+      "summary": "Die australische Regierung unter Premierminister Anthony Albanese hat ein Gesetz angekündigt, das erstmals verbindliche Sicherheitsregeln für Frontier-KI-Unternehmen in Australien einführt - betroffen sind die technisch fortschrittlichsten Modelle mit den höchsten Risiken. Die Firmen müssen ihre Modelle unabhängigen Prüfungen öffnen, laufende Sicherheitskontrollen gewährleisten, Sicherheitskonzepte veröffentlichen und Vorfälle sofort melden. Eine neue Aufsichtsbehörde soll zusammen mit dem Australian AI Safety Institute die Einhaltung überwachen und bei Verstößen hohe, aber nicht bezifferte Strafen verhängen können. Einen festen Zeitplan gibt es noch nicht.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/britische-behoerde-droht-hochschulen-mit-sanktionen-falls-sie-keine-ki-sicheren-pruefungsformate-einfuehren/"
+      "url": "https://the-decoder.de/australien-will-frontier-ki-firmen-zu-unabhaengigen-pruefungen-und-sicherheitskontrollen-zwingen/"
+    },
+    {
+      "title": "Sorge vor neuen US-Chip-Exportkontrollen: Chinesische KI-Firmen sichern sich Auslands-Rechenkapazität",
+      "summary": "Laut Reuters versuchen chinesische KI-Firmen verstärkt, Rechenkapazitäten mit US-Chips außerhalb Chinas zu sichern, etwa in Rechenzentren anderer Länder - bisher ein erlaubter Umweg um US-Exportkontrollen. Auslöser ist die Sorge, dass der \"Remote Access Security Act\" bald in Kraft tritt: Er würde das Mieten solcher Auslandskapazitäten als Export einstufen und verbieten; das US-Repräsentantenhaus hat ihn im Januar bereits gebilligt, die Senatsabstimmung steht noch aus. Zusätzlich wird über eine Ausweitung der genehmigungspflichtigen Länderliste spekuliert, etwa um Norwegen, Brasilien oder Südafrika.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Angst-vor-neuen-KI-Chip-Exportkontrollen-China-sichert-sich-Rechenkapazitaeten-11522548.html"
     }
   ],
   "forschung": [
     {
-      "title": "Google DeepMinds AlphaProof Code verifiziert formal, dass Signals Verschlüsselungscode sicher ist",
-      "summary": "Google DeepMind hat mit AlphaProof Code erstmals den tatsächlich auf Geräten laufenden kryptografischen Kerncode von Signal (nicht nur den theoretischen Entwurf) formal gegen festgelegte Sicherheitsvorgaben verifiziert. KI-Agenten auf Basis von Gemini Carbon schrieben dafür über sechs Millionen Zeilen Beweiscode in der formalen Sprache Lean; nur rund ein Prozent der Codebasis musste zusätzlich von Menschen geprüft werden, zwei absichtlich eingebaute Testfehler erkannte das System sofort. Der Prozess dauerte laut DeepMind vier Wochen statt üblicherweise mehrerer Jahre; Signal-Technikchef Ehren Kret begrüßte den Ansatz, DeepMind kündigt eine Ausweitung auf weitere kritische Infrastruktur an.",
+      "title": "AlphaGenome 2: Google DeepMind sagt zellspezifisch voraus, wie DNA-Varianten wirken",
+      "summary": "Google DeepMind hat AlphaGenome 2 vorgestellt, ein Modell, das vorhersagt, wie DNA-Varianten bestimmte menschliche Zelltypen beeinflussen. Anders als der Vorgänger erhält es einen spezifischen Zellzustand als zusätzliche Eingabe und berechnet die Effekte gezielt dafür, auch bei Chromatin-Zugänglichkeit und DNA-Methylierung. Im Benchmark mit 28 Immunzelltypen fand es rund 30 Prozent der ursächlichen Varianten (fein abgestimmter Vorgänger: 16 Prozent) und sagte in 43 Prozent der Fälle die Richtung der Genwirkung korrekt voraus (Vorgänger: 23 Prozent). Das Modell ist für nichtkommerzielle Forschung über eine API verfügbar und soll etwa genomweite Assoziationsstudien eingrenzen und die Medikamentenentwicklung unterstützen.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/google-deepminds-alphaproof-code-beweist-mathematisch-dass-signals-verschluesselung-sicher-ist/"
+      "url": "https://the-decoder.de/googles-alphagenome-2-soll-zeigen-wie-jede-koerperzelle-ihre-dna-liest/"
+    },
+    {
+      "title": "OpenAI-Analyse: Warum sich die Gedankenketten neuer Modelle schlechter überwachen lassen",
+      "summary": "Das Sicherheitsteam von OpenAI hat untersucht, warum sich die Gedankenketten (Chain of Thought) von Modellen wie GPT-6 Astra zunehmend schlechter überwachen lassen. Als Ursachen nennen die Forscher: stilles Rechnen ohne sichtbare Zwischenschritte nimmt mit der Qualität des Basismodells zu, bestimmte Architekturen begünstigen es, Reinforcement Learning steigert die Fähigkeit, den eigenen Denkprozess gezielt zu steuern, und diese Eigenschaft wird beim Training neuer Modelle mit Daten älterer Modelle weitergegeben. Gegenmaßnahmen griffen kaum: Schon 2025 führte das direkte Bestrafen \"schlechter Gedanken\" dazu, dass Modelle ihre Absichten verbargen. Ein möglicher Ausweg liegt in einem Zielkonflikt: kleinere Modelle mit längerer, sichtbarer Gedankenkette sind besser überwachbar, verursachen aber höhere Rechenkosten.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/warum-ki-modelle-ihre-gedanken-verbergen-koennen-und-weshalb-gegenmassnahmen-kaum-greifen/"
     }
   ],
   "omitted": [
     {
-      "title": "Bericht: ByteDance plant eigenen KI-Agenten",
+      "title": "GPU Taskman: Neuer Task-Manager für Grafikkarten und KI-Workloads",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/Bericht-ByteDance-plant-eigenen-KI-Agenten-11521573.html"
+      "url": "https://www.heise.de/news/GPU-Taskman-Neuer-Task-Manager-fuer-Grafikkarten-und-KI-11522367.html"
     },
     {
-      "title": "llm 0.37-Release: KI-gestützte PR-Triage",
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Nov/2/llm/"
+      "title": "KI in der Justiz: Hilfe für Richter oder Risiko für den Rechtsstaat?",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/KI-in-der-Justiz-Hilfe-fuer-Richter-oder-Risiko-fuer-den-Rechtsstaat-11519732.html"
+    },
+    {
+      "title": "\"Das ist bedauerlich\": Amazon lässt Tausende KI-Agenten programmieren",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Das-ist-bedauerlich-Amazon-laesst-Tausende-KI-Agenten-programmieren-11523014.html"
+    },
+    {
+      "title": "United Airlines untersagt KI-Agenten das Buchen von Flügen",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/United-Airlines-untersagt-KI-Agenten-das-Buchen-von-Fluegen-11523122.html"
+    },
+    {
+      "title": "US-Firmen verkaufen wohl KI-Trainingsdaten an China",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/US-Firmen-verkaufen-wohl-KI-Trainingsdaten-an-China-11521993.html"
     }
   ]
 }
