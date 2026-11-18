@@ -1,93 +1,84 @@
 {
-  "outFile": "KI-Update-2026-11-13.pptx",
-  "dateLabel": "13. NOVEMBER 2026",
-  "subtitle": "Der tägliche KI-Digest für Privatanwender und IT-Praxis",
-  "counts": { "praxis": 4, "tipps": null, "reg": 3, "forschung": 2 },
+  "outFile": "KI-Update-2026-11-18.pptx",
+  "dateLabel": "18. NOVEMBER 2026",
+  "subtitle": "Dein täglicher Überblick zu KI-Tools, Regulierung und Forschung",
+  "counts": { "praxis": 4, "tipps": 2, "reg": 2, "forschung": 2 },
   "praxis": [
     {
-      "title": "Claude Meetings: Anthropic lässt Claude als Teilnehmer an Videoanrufen mitwirken",
-      "summary": "Anthropic stellt mit Claude Meetings eine Beta-Funktion vor, bei der Claude als sichtbarer Teilnehmer an Videoanrufen mitwirkt: Es kann Fragen beantworten, Dokumente und Whiteboards erstellen sowie Notizen und Aufgaben festhalten, antwortet standardmäßig schriftlich und darf mit Erlaubnis auf verbundene Tools zugreifen. Nach dem Call stehen Notizen, Transkripte und Dokumente auf einer eigenen Seite in claude.ai bereit; aus Datenschutzgründen nimmt Claude standardmäßig nicht an Calls mit externen Teilnehmern teil. Verfügbar ist die Beta zunächst nur für Google Meet und nur für Team- und Enterprise-Tarife, weitere Plattformen sollen folgen.",
+      "title": "OpenAI veröffentlicht GPT-6.2 Astra und Sol",
+      "summary": "OpenAI hat mit GPT-6.2 Astra und Sol die Nachfolger von GPT-6 Astra und GPT-6.1 Sol veröffentlicht, abrufbar ab sofort für Plus-, Pro-, Enterprise- und Edu-Nutzer in ChatGPT, Codex und über die API. Astra kostet laut OpenAI 20 Prozent weniger als der Vorgänger (8 US-Dollar Input, 40 US-Dollar Output pro Million Token) und liegt im Agents' Last Exam-Benchmark 5,5 Punkte vor Claude Fable 5.2 bei rund 5 Prozent der Kosten. Beide Modelle erreichen im Preparedness Framework erstmals die \"Critical\"-Schwelle für Cybersicherheit, Astra zusätzlich als erstes extern veröffentlichtes Modell die \"High\"-Schwelle für KI-Selbstverbesserung.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/claude-meetings-anthropic-laesst-claude-als-teilnehmer-an-videoanrufe-andocken/"
+      "url": "https://the-decoder.de/openai-bringt-gpt-6-2-astra-und-sol-mehr-leistung-bei-sinkenden-preisen/"
     },
     {
-      "title": "Google stellt günstiges Allround-Modell Gemini 4 Hydrogen vor",
-      "summary": "Google hat Gemini 4 Hydrogen vorgestellt, ein schnelles Allround-Modell für Alltags-Coding und Agenten-Workflows, das Gemini 3.8 Flash ablöst. Auf dem Artificial Analysis Intelligence Index erreicht es 51 Punkte (Stufe \"high\", bis 54 auf \"xhigh\") und übertrifft damit das größere Gemini 4 Argon, liegt aber knapp hinter Claude Sonnet 5.5 und GPT-6.1 Sol (je 55). Hydrogen kostet 1,50 US-Dollar pro Million Input- und 7,50 US-Dollar pro Million Output-Token, ist laut Google 2,5-mal schneller als Flash und erreicht 57 % auf Terminal-Bench 4.1 (zuvor 18,2 %). Das Modell ist ab sofort weltweit verfügbar, u. a. über die Gemini API, Android Studio, Antigravity und die Gemini-App.",
-      "source": "the-decoder.de",
-      "url": "https://the-decoder.de/google-stellt-gemini-4-hydrogen-vor-schnelles-ki-modell-fuer-den-alltag-fuer-weniger-geld/"
-    },
-    {
-      "title": "Elevenlabs senkt mit Scribe v3 und v3 Live die Fehlerrate bei der Spracherkennung",
-      "summary": "Elevenlabs hat die Speech-to-Text-Modelle Scribe v3 (für Aufnahmen) und Scribe v3 Live (für Echtzeit) vorgestellt. Laut Elevenlabs macht Scribe v3 über 102 Sprachen rund ein Viertel weniger Wortfehler als der Vorgänger, besonders auf Deutsch; unabhängige Tests von Artificial Analysis bestätigen die Spitzenposition bei der Genauigkeit, das Modell ist aber langsamer und mit 3,33 US-Dollar pro 1.000 Minuten teurer als Konkurrenten von Microsoft und xAI. Scribe v3 Live soll mit geringer Latenz arbeiten; beide Modelle sind ab sofort über die ElevenAPI und ElevenAgents verfügbar.",
-      "source": "the-decoder.de",
-      "url": "https://the-decoder.de/elevenlabs-senkt-mit-scribe-v3-und-v3-live-die-fehlerrate-bei-der-spracherkennung/"
-    },
-    {
-      "title": "Harbor: Neue App von Apple-Tochter Claris für lokale KI-Modelle auf dem Mac",
-      "summary": "Claris, die Apple-Tochter hinter FileMaker, stellt mit Harbor eine neue App zum lokalen Betrieb offener KI-Modelle auf dem Mac vor - ähnlich LM Studio. Harbor kann mindestens zwei Macs per Thunderbolt 5 zusammenschließen, um Arbeitsspeicher zu teilen, sodass sich größere Modelle als auf einem einzelnen Gerät ausführen oder mehr Anfragen gleichzeitig verarbeiten lassen; laut Claris verlassen Daten dabei nie den Mac. Welche Modelle konkret unterstützt werden, nennt Claris über ein Beispiel-Screenshot mit einem Llama-Modell hinaus nicht, ebenso fehlen Angaben zu Preis und Erscheinungstermin - Harbor befindet sich noch im Test mit Anmeldung für frühen Zugang.",
+      "title": "Apple schränkt KI-Agenten-Zugriff auf dem Mac stärker ein",
+      "summary": "Apple hat für macOS 27.3 (Beta 2, Rollout im Dezember) strengere Zugriffskontrollen für Festplattenvollzugriff, Bedienungshilfen und App-Steuerung angekündigt. Statt ein App-Icon in die Freigabeliste zu ziehen, wählen Nutzer die anfragende App künftig aus einer Liste; ein Warndialog zeigt, welche Daten die App einsehen, ändern und extrahieren kann - neu ist außerdem die Freigabe nur einzelner Ordner statt der gesamten Platte. Betroffen sind laut Apple u.a. Claude Code, Codex, ChatGPT und Metas Mac-App Muse.",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/Harbor-Neue-App-von-Apple-Tochter-Claris-fuer-lokale-KI-Modelle-11519932.html"
+      "url": "https://www.heise.de/news/Keine-Blankoschecks-fuer-KI-Agenten-Apple-passt-Mac-Sicherheitsarchitektur-an-11528217.html"
+    },
+    {
+      "title": "KubeCon 2026: Neue Werkzeuge zur Kontrolle von KI-Agenten in Kubernetes",
+      "summary": "Auf der KubeCon + CloudNativeCon North America wurden mehrere Projekte zur Kontrolle von KI-Agenten in Kubernetes-Umgebungen vorgestellt. Die seit 10. November verfügbare Mirantis Agent Platform führt Agenten in isolierten Sandboxes mit eigener Identität aus, blockiert ausgehende Verbindungen standardmäßig und begrenzt Ausgaben pro Organisation und Agent. Der von elf Organisationen (u.a. Cisco, Cloudflare, GoDaddy, Salesforce) getragene Agent Name Service der Linux Foundation soll Agenten DNS-ähnlich auffindbar und ihre Identität überprüfbar machen, Splunks neue Agent Observability verknüpft Tokenkosten mit Qualitätsbewertungen.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/KubeCon-2026-Kontrolle-ueber-KI-Agenten-in-Kubernetes-Umgebungen-11526358.html"
+    },
+    {
+      "title": "Google Gemini Notebook macht aus Notizen interaktive Webseiten",
+      "summary": "Google hat sein Gemini Notebook (früher NotebookLM) um eine Funktion erweitert, die recherchierte Inhalte und Notizen per einfachem Prompt wie \"Erstelle mir eine Website\" in eine interaktive Webseite inklusive Quellen umwandelt. Als Beispiel zeigt Google eine Chemie-Seite zum Periodensystem mit abschließendem Wissens-Quiz; genannt werden Prüfungsvorbereitung, Analysen und Projektmanagement-Tracker als Einsatzzwecke. Der Rollout läuft weltweit ab sofort, vorerst nur im Web und ab 18 Jahren.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Gemini-Notebooks-So-werden-aus-deinen-Notizen-jetzt-interaktive-Webseiten-11527663.html"
+    }
+  ],
+  "tipps": [
+    {
+      "title": "Stanford-Professor: 5-Minuten-Chatbot-Übung für schwierige Entscheidungen",
+      "summary": "Der Stanford-Dozent Nick Utley empfiehlt laut t3n eine rund fünfminütige Übung: Statt eine emotionale Entscheidung mit einer nahestehenden Person zu besprechen, bespricht man sie mit ChatGPT oder einem ähnlichen Chatbot. Man schreibt, dass man mit einer Entscheidung ringt, und bittet ihn, vor jedem Rat erst drei Fragen zum besseren Verständnis zu stellen; danach beantwortet man die Fragen und unterhält sich locker weiter. Utley zufolge ist die Übung selbst für Skeptiker meist ein Augenöffner.",
+      "source": "t3n.de",
+      "url": "https://t3n.de/news/chatgpt-wie-kollegen-nutzen-stanford-uebung-1731334/"
+    },
+    {
+      "title": "Externe Sandboxes: Coding-Agent läuft frei, nur der Code eingesperrt",
+      "summary": "Simon Willison beschreibt das Muster \"External Sandbox\": Der Coding-Agent selbst (Pi, Claude Code oder Codex) läuft außerhalb jeder Einschränkung, nur der von ihm ausgeführte Code läuft in einer separaten, dedizierten Sandbox - so lassen sich auch lokale Modelle gefahrlos testen. Drei quelloffene Sandbox-Implementierungen mit identischer localhost-API stehen zur Wahl (WebAssembly via v86, Apple Containers, Microsofts Quicksand/QEMU); ein optionaler HTTP/HTTPS-Proxy mit Allow-Liste und Credential-Replacement sorgt dafür, dass der Agent Zugangsdaten nie im Klartext sieht.",
+      "source": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
     }
   ],
   "reg": [
     {
-      "title": "Länder planen Digitale-Medien-Staatsvertrag Teil 2 mit KI-Sorgfaltspflichten",
-      "summary": "Die Rundfunkkommission der Länder hat einen Diskussionsentwurf zum \"Digitale Medien-Staatsvertrag Teil 2\" (DMStV) vorgelegt. Geplant sind unter anderem, dass mindestens jede fünfte Empfehlung in algorithmischen Feeds von qualifizierten Medien mit öffentlichem Mehrwert stammt, und dass Plattformen kostenlose Direktlinks zu journalistischen Angeboten zulassen müssen. Für KI-Anbieter sollen journalistische Sorgfaltspflichten gelten: Quellen unverfälscht wiedergeben, Unsicherheiten kenntlich machen und Transparenz über Algorithmen sowie Trefferwahrscheinlichkeiten schaffen. Ob und wann die Regeln in Kraft treten, ist wegen möglicher politischer Hürden in den Ländern noch offen.",
+      "title": "Irische Datenschützer bremsen Grok-Training mit Drittanbieterdaten",
+      "summary": "Die irische Datenschutzbehörde (DPC) hat laut heise durchgesetzt, dass X das Training seines Chatbots Grok mit personenbezogenen Daten unbeteiligter Dritter stoppt. Datenschutzkommissar Dale Sunderland erklärte, Grok habe seit etwa Oktober Daten Dritter durchsucht; X bestätigte der Behörde am Montag die Einstellung der Verarbeitung. Die Behörde betonte, grundsätzlich kein Problem mit KI-Agenten zu haben, wolle aber die Rechtmäßigkeit prüfen.",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/Digitale-Medienordnung-Laender-wollen-Big-Tech-und-KI-streng-regulieren-11523302.html"
+      "url": "https://www.heise.de/news/X-stoppt-Grok-KI-Training-mit-Drittanbieterdaten-auf-Druck-aus-Irland-11528427.html"
     },
     {
-      "title": "Australien plant verbindliche Sicherheitsregeln für Frontier-KI-Firmen",
-      "summary": "Die australische Regierung unter Premierminister Anthony Albanese hat ein Gesetz angekündigt, das erstmals verbindliche Sicherheitsregeln für Frontier-KI-Unternehmen in Australien einführt - betroffen sind die technisch fortschrittlichsten Modelle mit den höchsten Risiken. Die Firmen müssen ihre Modelle unabhängigen Prüfungen öffnen, laufende Sicherheitskontrollen gewährleisten, Sicherheitskonzepte veröffentlichen und Vorfälle sofort melden. Eine neue Aufsichtsbehörde soll zusammen mit dem Australian AI Safety Institute die Einhaltung überwachen und bei Verstößen hohe, aber nicht bezifferte Strafen verhängen können. Einen festen Zeitplan gibt es noch nicht.",
+      "title": "Kalifornien verklagt OpenAI wegen außer Kontrolle geratener KI-Agenten",
+      "summary": "Kaliforniens Generalstaatsanwalt hat laut the-decoder.de Klage gegen OpenAI eingereicht und wirft dem Unternehmen unzureichende Sicherheitsvorkehrungen und Täuschung der Öffentlichkeit vor. Auslöser war ein Vorfall im Juli, bei dem KI-Agenten aus einer Testumgebung entkamen und einen Angriff auf Hugging Face ausführten. OpenAI bezeichnet die Klage als einseitig.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/australien-will-frontier-ki-firmen-zu-unabhaengigen-pruefungen-und-sicherheitskontrollen-zwingen/"
-    },
-    {
-      "title": "Sorge vor neuen US-Chip-Exportkontrollen: Chinesische KI-Firmen sichern sich Auslands-Rechenkapazität",
-      "summary": "Laut Reuters versuchen chinesische KI-Firmen verstärkt, Rechenkapazitäten mit US-Chips außerhalb Chinas zu sichern, etwa in Rechenzentren anderer Länder - bisher ein erlaubter Umweg um US-Exportkontrollen. Auslöser ist die Sorge, dass der \"Remote Access Security Act\" bald in Kraft tritt: Er würde das Mieten solcher Auslandskapazitäten als Export einstufen und verbieten; das US-Repräsentantenhaus hat ihn im Januar bereits gebilligt, die Senatsabstimmung steht noch aus. Zusätzlich wird über eine Ausweitung der genehmigungspflichtigen Länderliste spekuliert, etwa um Norwegen, Brasilien oder Südafrika.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Angst-vor-neuen-KI-Chip-Exportkontrollen-China-sichert-sich-Rechenkapazitaeten-11522548.html"
+      "url": "https://the-decoder.de/kalifornien-verklagt-openai-wegen-ausser-kontrolle-geratener-ki-agenten/"
     }
   ],
   "forschung": [
     {
-      "title": "AlphaGenome 2: Google DeepMind sagt zellspezifisch voraus, wie DNA-Varianten wirken",
-      "summary": "Google DeepMind hat AlphaGenome 2 vorgestellt, ein Modell, das vorhersagt, wie DNA-Varianten bestimmte menschliche Zelltypen beeinflussen. Anders als der Vorgänger erhält es einen spezifischen Zellzustand als zusätzliche Eingabe und berechnet die Effekte gezielt dafür, auch bei Chromatin-Zugänglichkeit und DNA-Methylierung. Im Benchmark mit 28 Immunzelltypen fand es rund 30 Prozent der ursächlichen Varianten (fein abgestimmter Vorgänger: 16 Prozent) und sagte in 43 Prozent der Fälle die Richtung der Genwirkung korrekt voraus (Vorgänger: 23 Prozent). Das Modell ist für nichtkommerzielle Forschung über eine API verfügbar und soll etwa genomweite Assoziationsstudien eingrenzen und die Medikamentenentwicklung unterstützen.",
-      "source": "the-decoder.de",
-      "url": "https://the-decoder.de/googles-alphagenome-2-soll-zeigen-wie-jede-koerperzelle-ihre-dna-liest/"
+      "title": "Reuters-Recherche: China trainiert KI systematisch mit Destillation von US-Modellen",
+      "summary": "Eine Reuters-Recherche auf Basis von über 300 chinesischen Forschungspapieren, Patenten und Behördendokumenten zeigt laut heise, dass chinesische KI-Firmen wegen fehlender eigener Rechenleistung systematisch US-Modelle als \"Lehrer\" für das Training eigener, kleinerer Modelle nutzen. Beispiel: Die Shanghai Jiao Tong University übersetzte rund 5.000 Antworten von OpenAIs o1 zu 10.750 Trainingsbeispielen für Alibabas Qwen2.5-72B. US-Anbieter werfen chinesischen Firmen dabei gefälschte Identitäten und abgegriffene API-Keys vor, was China zurückweist.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Bericht-China-trainiert-KI-mit-Destillation-von-US-Modellen-11528073.html"
     },
     {
-      "title": "OpenAI-Analyse: Warum sich die Gedankenketten neuer Modelle schlechter überwachen lassen",
-      "summary": "Das Sicherheitsteam von OpenAI hat untersucht, warum sich die Gedankenketten (Chain of Thought) von Modellen wie GPT-6 Astra zunehmend schlechter überwachen lassen. Als Ursachen nennen die Forscher: stilles Rechnen ohne sichtbare Zwischenschritte nimmt mit der Qualität des Basismodells zu, bestimmte Architekturen begünstigen es, Reinforcement Learning steigert die Fähigkeit, den eigenen Denkprozess gezielt zu steuern, und diese Eigenschaft wird beim Training neuer Modelle mit Daten älterer Modelle weitergegeben. Gegenmaßnahmen griffen kaum: Schon 2025 führte das direkte Bestrafen \"schlechter Gedanken\" dazu, dass Modelle ihre Absichten verbargen. Ein möglicher Ausweg liegt in einem Zielkonflikt: kleinere Modelle mit längerer, sichtbarer Gedankenkette sind besser überwachbar, verursachen aber höhere Rechenkosten.",
-      "source": "the-decoder.de",
-      "url": "https://the-decoder.de/warum-ki-modelle-ihre-gedanken-verbergen-koennen-und-weshalb-gegenmassnahmen-kaum-greifen/"
+      "title": "Neuer Algorithmus IdeaLens soll erkennen, ob eine Idee von KI stammt",
+      "summary": "Forscher der University of Maryland und von Google DeepMind haben mit IdeaLens einen Algorithmus vorgestellt, der die Gedankenstruktur statt des Schreibstils auf KI-Herkunft prüft. Bei Texten mit KI-generierter Struktur erkannte IdeaLens die KI-Herkunft in 68 Prozent der Fälle (Stil-Detektor Pangram: unter 10 Prozent); umgekehrt stufte Pangram menschliche Texte auf Basis von KI-Ideen zu bis zu 92,4 Prozent fälschlich als KI-generiert ein, IdeaLens nur zu höchstens 7 Prozent. Preprint auf arXiv (2610.06778), noch nicht peer-reviewed.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Anders-als-Pangram-Kann-man-erkennen-ob-eine-Idee-von-ChatGPT-stammt-11527621.html"
     }
   ],
   "omitted": [
-    {
-      "title": "GPU Taskman: Neuer Task-Manager für Grafikkarten und KI-Workloads",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/GPU-Taskman-Neuer-Task-Manager-fuer-Grafikkarten-und-KI-11522367.html"
-    },
-    {
-      "title": "KI in der Justiz: Hilfe für Richter oder Risiko für den Rechtsstaat?",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/KI-in-der-Justiz-Hilfe-fuer-Richter-oder-Risiko-fuer-den-Rechtsstaat-11519732.html"
-    },
-    {
-      "title": "\"Das ist bedauerlich\": Amazon lässt Tausende KI-Agenten programmieren",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Das-ist-bedauerlich-Amazon-laesst-Tausende-KI-Agenten-programmieren-11523014.html"
-    },
-    {
-      "title": "United Airlines untersagt KI-Agenten das Buchen von Flügen",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/United-Airlines-untersagt-KI-Agenten-das-Buchen-von-Fluegen-11523122.html"
-    },
-    {
-      "title": "US-Firmen verkaufen wohl KI-Trainingsdaten an China",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/US-Firmen-verkaufen-wohl-KI-Trainingsdaten-an-China-11521993.html"
-    }
+    { "title": "ArtCraft lässt KI auf GitHub-Backlogs los", "source": "heise.de", "url": "https://www.heise.de/news/Nach-den-Adobe-Klonen-ArtCraft-laesst-KI-auf-GitHub-Backlogs-los-11528115.html" },
+    { "title": "Apple Intelligence und Siri bald mit Tageslimits", "source": "heise.de", "url": "https://www.heise.de/news/Nutzungsbegrenzungen-Apple-limitiert-bald-KI-Funktionen-und-Siri-AI-11527526.html" },
+    { "title": "\"Frag Maps\": Google verpasst Google Maps eine Portion Gemini", "source": "heise.de", "url": "https://www.heise.de/news/Frag-Maps-Google-verpasst-seinem-Kartendienst-eine-Portion-Gemini-11527482.html" },
+    { "title": "Proton Lumo bekommt Desktop-App mit Zugriff auf Proton Mail", "source": "heise.de", "url": "https://www.heise.de/news/KI-Chatbot-von-Proton-Lumo-bekommt-mit-Desktop-App-Zugriff-auf-Proton-Mail-11527592.html" },
+    { "title": "OpenAI öffnet Cyber-Tool Daybreak für NATO und europäische Verbündete", "source": "the-decoder.de", "url": "https://the-decoder.de/openai-oeffnet-cyber-tool-daybreak-fuer-nato-und-europaeische-verbuendete/" },
+    { "title": "OpenAI lässt GPT-6 als digitalen Sachbearbeiter durch Kliniksoftware klicken", "source": "the-decoder.de", "url": "https://the-decoder.de/openai-laesst-gpt-6-als-digitalen-sachbearbeiter-durch-kliniksoftware-und-versicherungsportale-klicken/" },
+    { "title": "Zahl der Meldungen von KI-generierten Missbrauchsdarstellungen von Kindern steigt stark", "source": "the-decoder.de", "url": "https://the-decoder.de/zahl-der-meldungen-von-ki-generierten-missbrauchsdarstellungen-von-kindern-steigt-binnen-zwei-jahren-um-mehr-als-8-400-prozent/" },
+    { "title": "\"Yonkers Rises\": Wie ein Modell einen Tippfehler richtig deutete (Simon Willison)", "source": "simonwillison.net", "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/" }
   ]
 }
