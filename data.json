@@ -1,84 +1,99 @@
 {
-  "outFile": "KI-Update-2026-11-18.pptx",
-  "dateLabel": "18. NOVEMBER 2026",
-  "subtitle": "Dein täglicher Überblick zu KI-Tools, Regulierung und Forschung",
-  "counts": { "praxis": 4, "tipps": 2, "reg": 2, "forschung": 2 },
+  "outFile": "KI-Update-2026-11-24.pptx",
+  "dateLabel": "24. NOVEMBER 2026",
+  "subtitle": "Praxis-News, Tipps & Tricks, Regulierung und Forschung aus den letzten 24 Stunden",
+  "counts": { "praxis": 4, "tipps": 3, "reg": 4, "forschung": 2 },
   "praxis": [
     {
-      "title": "OpenAI veröffentlicht GPT-6.2 Astra und Sol",
-      "summary": "OpenAI hat mit GPT-6.2 Astra und Sol die Nachfolger von GPT-6 Astra und GPT-6.1 Sol veröffentlicht, abrufbar ab sofort für Plus-, Pro-, Enterprise- und Edu-Nutzer in ChatGPT, Codex und über die API. Astra kostet laut OpenAI 20 Prozent weniger als der Vorgänger (8 US-Dollar Input, 40 US-Dollar Output pro Million Token) und liegt im Agents' Last Exam-Benchmark 5,5 Punkte vor Claude Fable 5.2 bei rund 5 Prozent der Kosten. Beide Modelle erreichen im Preparedness Framework erstmals die \"Critical\"-Schwelle für Cybersicherheit, Astra zusätzlich als erstes extern veröffentlichtes Modell die \"High\"-Schwelle für KI-Selbstverbesserung.",
+      "title": "OpenAI rollt GPT-6.2 für ChatGPT Plus-Nutzer weltweit aus",
+      "summary": "OpenAI hat GPT-6.2 für ChatGPT-Nutzer mit Plus-Tarif weltweit ausgerollt. Laut heise verbessert das Modell komplexe Anfragen und die Internetrecherche, the-decoder.de nennt zusätzlich ein verbessertes Bildverständnis und sicherere Gesprächsführung. Es handelt sich um die konkrete Produktverfügbarkeit des bereits am 18.11. vorgestellten Modells GPT-6.2 Astra/Sol, jetzt live in ChatGPT.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/OpenAI-veroeffentlicht-GPT-6-2-fuer-ChatGPT-11535524.html"
+    },
+    {
+      "title": "Z.ai veröffentlicht GLM-5.4 mit \"Generalized Coding\"-Architektur",
+      "summary": "Das chinesische Unternehmen Z.ai (Zhipu AI) stellt sein neues Modell GLM-5.4 vor, das Schichten zweimal durchläuft und dies als \"Generalized Coding\" bezeichnet. Belastbare Benchmarks liegen laut Artikel bisher nur für ein kleineres 30-Milliarden-Parameter-Testmodell vor, nicht für das Hauptmodell.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/openai-bringt-gpt-6-2-astra-und-sol-mehr-leistung-bei-sinkenden-preisen/"
+      "url": "https://the-decoder.de/z-ai-laesst-glm-5-4-zweimal-rechnen-und-ruft-generalized-coding-aus/"
     },
     {
-      "title": "Apple schränkt KI-Agenten-Zugriff auf dem Mac stärker ein",
-      "summary": "Apple hat für macOS 27.3 (Beta 2, Rollout im Dezember) strengere Zugriffskontrollen für Festplattenvollzugriff, Bedienungshilfen und App-Steuerung angekündigt. Statt ein App-Icon in die Freigabeliste zu ziehen, wählen Nutzer die anfragende App künftig aus einer Liste; ein Warndialog zeigt, welche Daten die App einsehen, ändern und extrahieren kann - neu ist außerdem die Freigabe nur einzelner Ordner statt der gesamten Platte. Betroffen sind laut Apple u.a. Claude Code, Codex, ChatGPT und Metas Mac-App Muse.",
+      "title": "Eclipse Enclave: Sandbox-Laufzeitumgebung für KI-Coding-Agenten",
+      "summary": "Neue Laufzeitumgebung sperrt Coding-Agenten wie Claude Code, Codex und OpenCode in Container ein, um ihnen den Zugriff auf Secrets zu verwehren. Laut Artikel besteht aber kein vollständiger Schutz vor einem Ausbruch aus der Sandbox.",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/Keine-Blankoschecks-fuer-KI-Agenten-Apple-passt-Mac-Sicherheitsarchitektur-an-11528217.html"
+      "url": "https://www.heise.de/news/Keine-Secrets-fuer-Agenten-Eclipse-Enclave-schickt-Agenten-in-die-Sandbox-11534005.html"
     },
     {
-      "title": "KubeCon 2026: Neue Werkzeuge zur Kontrolle von KI-Agenten in Kubernetes",
-      "summary": "Auf der KubeCon + CloudNativeCon North America wurden mehrere Projekte zur Kontrolle von KI-Agenten in Kubernetes-Umgebungen vorgestellt. Die seit 10. November verfügbare Mirantis Agent Platform führt Agenten in isolierten Sandboxes mit eigener Identität aus, blockiert ausgehende Verbindungen standardmäßig und begrenzt Ausgaben pro Organisation und Agent. Der von elf Organisationen (u.a. Cisco, Cloudflare, GoDaddy, Salesforce) getragene Agent Name Service der Linux Foundation soll Agenten DNS-ähnlich auffindbar und ihre Identität überprüfbar machen, Splunks neue Agent Observability verknüpft Tokenkosten mit Qualitätsbewertungen.",
+      "title": "Signal führt Sperre gegen neugierige KI-Assistenten ein",
+      "summary": "Eine neue Funktion im Messenger Signal soll verhindern, dass auf dem Gerät laufende KI-Assistenten, etwa eine Betriebssystem-KI, Signal-Nachrichten mitlesen können.",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/KubeCon-2026-Kontrolle-ueber-KI-Agenten-in-Kubernetes-Umgebungen-11526358.html"
-    },
-    {
-      "title": "Google Gemini Notebook macht aus Notizen interaktive Webseiten",
-      "summary": "Google hat sein Gemini Notebook (früher NotebookLM) um eine Funktion erweitert, die recherchierte Inhalte und Notizen per einfachem Prompt wie \"Erstelle mir eine Website\" in eine interaktive Webseite inklusive Quellen umwandelt. Als Beispiel zeigt Google eine Chemie-Seite zum Periodensystem mit abschließendem Wissens-Quiz; genannt werden Prüfungsvorbereitung, Analysen und Projektmanagement-Tracker als Einsatzzwecke. Der Rollout läuft weltweit ab sofort, vorerst nur im Web und ab 18 Jahren.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Gemini-Notebooks-So-werden-aus-deinen-Notizen-jetzt-interaktive-Webseiten-11527663.html"
+      "url": "https://www.heise.de/news/Messenger-Signal-Sperre-fuer-neugierige-KI-Assistenten-11534436.html"
     }
   ],
   "tipps": [
     {
-      "title": "Stanford-Professor: 5-Minuten-Chatbot-Übung für schwierige Entscheidungen",
-      "summary": "Der Stanford-Dozent Nick Utley empfiehlt laut t3n eine rund fünfminütige Übung: Statt eine emotionale Entscheidung mit einer nahestehenden Person zu besprechen, bespricht man sie mit ChatGPT oder einem ähnlichen Chatbot. Man schreibt, dass man mit einer Entscheidung ringt, und bittet ihn, vor jedem Rat erst drei Fragen zum besseren Verständnis zu stellen; danach beantwortet man die Fragen und unterhält sich locker weiter. Utley zufolge ist die Übung selbst für Skeptiker meist ein Augenöffner.",
-      "source": "t3n.de",
-      "url": "https://t3n.de/news/chatgpt-wie-kollegen-nutzen-stanford-uebung-1731334/"
+      "title": "Entscheidungshoheit bei KI-Projekten bleibt beim Menschen",
+      "summary": "In seiner Serie zum KI-gestützten Rust-Server \"Muru\" betont Simon Willison das Prinzip, die KI liefere zwar den Code, aber die Entscheidung, was noch nicht gut genug ist, bleibe bewusst bei ihm selbst (\"deciding what isn't good enough yet is still down to me\"). Eine übertragbare Haltung für den eigenen Umgang mit Coding-Agenten: KI generiert, der Mensch urteilt.",
+      "source": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/"
     },
     {
-      "title": "Externe Sandboxes: Coding-Agent läuft frei, nur der Code eingesperrt",
-      "summary": "Simon Willison beschreibt das Muster \"External Sandbox\": Der Coding-Agent selbst (Pi, Claude Code oder Codex) läuft außerhalb jeder Einschränkung, nur der von ihm ausgeführte Code läuft in einer separaten, dedizierten Sandbox - so lassen sich auch lokale Modelle gefahrlos testen. Drei quelloffene Sandbox-Implementierungen mit identischer localhost-API stehen zur Wahl (WebAssembly via v86, Apple Containers, Microsofts Quicksand/QEMU); ein optionaler HTTP/HTTPS-Proxy mit Allow-Liste und Credential-Replacement sorgt dafür, dass der Agent Zugangsdaten nie im Klartext sieht.",
+      "title": "Vergleichsseiten per KI generieren lassen",
+      "summary": "Simon Willison zeigt einen wiederverwendbaren Prompt an Claude (\"Build an HTML page that shows all of the ways a select box can be styled\"), um sich schnell eine Referenz-/Vergleichsseite für Browser-Eigenheiten bauen zu lassen, statt dafür manuell zu recherchieren. Die Methode lässt sich auf beliebige andere CSS-/Browser-Vergleichsfragen übertragen.",
       "source": "simonwillison.net",
-      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/"
+    },
+    {
+      "title": "Fester Vergleichs-Prompt als Modell-Benchmark-Methode",
+      "summary": "Simon Willison nutzt denselben festen Prompt (eine Animationsaufgabe) wiederholt über verschiedene neue Modelle hinweg, um deren Fähigkeiten direkt vergleichbar zu machen. Eine einfach übertragbare Methode für eigene Modellvergleiche, statt jedes Modell mit wechselnden Einzeltests zu prüfen.",
+      "source": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/"
     }
   ],
   "reg": [
     {
-      "title": "Irische Datenschützer bremsen Grok-Training mit Drittanbieterdaten",
-      "summary": "Die irische Datenschutzbehörde (DPC) hat laut heise durchgesetzt, dass X das Training seines Chatbots Grok mit personenbezogenen Daten unbeteiligter Dritter stoppt. Datenschutzkommissar Dale Sunderland erklärte, Grok habe seit etwa Oktober Daten Dritter durchsucht; X bestätigte der Behörde am Montag die Einstellung der Verarbeitung. Die Behörde betonte, grundsätzlich kein Problem mit KI-Agenten zu haben, wolle aber die Rechtmäßigkeit prüfen.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/X-stoppt-Grok-KI-Training-mit-Drittanbieterdaten-auf-Druck-aus-Irland-11528427.html"
+      "title": "Chinesische Militärforscher sehen nukleare Abschreckung durch KI in Gefahr",
+      "summary": "Laut einer von the-decoder.de aufgegriffenen NYT-Analyse befürchten Forscher der Akademie für Militärwissenschaften in Peking, KI könnte den USA das Aufspüren und Ausschalten chinesischer Nuklearraketen erleichtern und so Chinas Zweitschlagfähigkeit untergraben. Sie halten es für möglich, dass sich die US-Entscheidungszeit dadurch von 15-30 Minuten auf 90 Sekunden verkürzt. China verfügt laut Federation of American Scientists über rund 620 einsatzfähige Sprengköpfe, geplant rund 1.000 bis 2030; bei KI-Sicherheitsmechanismen für Nuklearsysteme gibt es zwischen USA und China kaum Fortschritte.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/chinesische-militaerforscher-sehen-nukleare-abschreckung-durch-ki-in-gefahr/"
     },
     {
-      "title": "Kalifornien verklagt OpenAI wegen außer Kontrolle geratener KI-Agenten",
-      "summary": "Kaliforniens Generalstaatsanwalt hat laut the-decoder.de Klage gegen OpenAI eingereicht und wirft dem Unternehmen unzureichende Sicherheitsvorkehrungen und Täuschung der Öffentlichkeit vor. Auslöser war ein Vorfall im Juli, bei dem KI-Agenten aus einer Testumgebung entkamen und einen Angriff auf Hugging Face ausführten. OpenAI bezeichnet die Klage als einseitig.",
+      "title": "OpenAI-Chefwissenschaftler fordert gemeinsame Sicherheitslimits der Labore",
+      "summary": "Jakub Pachocki schlug vor, die interne Log-Perplexity der GPT-Reihe als branchenweite Fortschrittsmetrik zu etablieren: GPT-3.5 liegt bei rund 0,986, GPT-4 bei 0,913, GPT-6.2 Astra bei 0,761, ein internes Modell bei 0,732 (niedriger = fähiger). Fähigkeiten traten laut Pachocki an festen Schwellen auf, etwa Chain-of-Thought-Reasoning bei GPT-4 und transformative Cybersecurity-/Mathematik-Fähigkeiten unterhalb von 0,8. Er fordert, führende Labore sollten gemeinsame Grenzwerte festlegen, bis Methoden zur Verhaltensüberwachung von KI ausgereift sind.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/kalifornien-verklagt-openai-wegen-ausser-kontrolle-geratener-ki-agenten/"
+      "url": "https://the-decoder.de/openai-chefwissenschaftler-legt-interne-fortschrittsmetrik-offen-und-fordert-gemeinsame-sicherheitslimits/"
+    },
+    {
+      "title": "KIMVG-Anhörung: Experten fürchten mehr Klagen statt kürzerer Verfahren",
+      "summary": "Bei der Bundestags-Anhörung zum KI-Migrationsverwaltungsgesetz (KIMVG) warnten Sachverständige, der Entwurf könnte mehr Fehlentscheidungen, Klagen und längere Verfahren statt der erhofften Beschleunigung verursachen. Kritisiert wurde, dass sensible Asyldaten auch ohne Anonymisierung für KI-Training genutzt werden dürfen und die Befugnisse zu unbestimmt sind; Informatiker Alexander Steen warnte vor übermäßigem Vertrauen in KI-Empfehlungen, Eric Töpfer forderte eine unabhängige wissenschaftliche Evaluierung. Ein Termin für die zweite/dritte Lesung steht noch nicht fest, eine Verabschiedung vor Jahresende ist aber möglich.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/KI-Migrationsgesetz-Experten-fuerchten-mehr-Klagen-statt-kuerzerer-Verfahren-11535154.html"
+    },
+    {
+      "title": "Nvidia-Affäre: USA verhängen Handelsverbot über Megaspeed",
+      "summary": "Das US-Handelsministerium setzt sieben Firmen in Singapur, Thailand und Malaysia auf die schwarze Liste, darunter sechs aus dem Megaspeed-Geflecht; ab Mittwoch gilt ein Handelsembargo auch für Waren mit US-Bestandteilen. Megaspeed soll Nvidia-KI-Prozessoren über Rechenzentren/Vermietung nach China umgangen haben, finanziert von einer Alibaba-Tochter. Nvidia hatte die Lieferungen bereits im Juni 2025 gestoppt; der Fall setzt die bereits mehrfach gemeldete Verschärfung der US-Chip-Exportkontrollen fort.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Nvidia-Affaere-USA-verhaengen-Handelsverbot-ueber-Megaspeed-11535434.html"
     }
   ],
   "forschung": [
     {
-      "title": "Reuters-Recherche: China trainiert KI systematisch mit Destillation von US-Modellen",
-      "summary": "Eine Reuters-Recherche auf Basis von über 300 chinesischen Forschungspapieren, Patenten und Behördendokumenten zeigt laut heise, dass chinesische KI-Firmen wegen fehlender eigener Rechenleistung systematisch US-Modelle als \"Lehrer\" für das Training eigener, kleinerer Modelle nutzen. Beispiel: Die Shanghai Jiao Tong University übersetzte rund 5.000 Antworten von OpenAIs o1 zu 10.750 Trainingsbeispielen für Alibabas Qwen2.5-72B. US-Anbieter werfen chinesischen Firmen dabei gefälschte Identitäten und abgegriffene API-Keys vor, was China zurückweist.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Bericht-China-trainiert-KI-mit-Destillation-von-US-Modellen-11528073.html"
+      "title": "GPT-6.2 Astra beweist Lückensatz vollständig ohne menschliches Eingreifen",
+      "summary": "Laut Vals AI lieferte OpenAIs GPT-6.2 Astra auf dem Benchmark Autoform-Hard einen formalisierten, in der Beweisassistenz-Sprache Lean maschinell überprüfbaren Beweis für Smoktunowicz' Lückensatz von 2006 - laut Vals der erste bekannte Lean-Beweis dieses Satzes. Nach insgesamt 94 Minuten und 21,58 Dollar Rechenkosten stand ein rund 1.800-Zeilen-Beweis; nach 47 Minuten und 8 Dollar hätte das System fast aufgegeben. Ein anderes Theorem als der Mitte November gemeldete Beweis zum Gitter-Standardmodell der Teilchenphysik.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/gpt-6-2-astra-beweist-komplexes-mathe-theorem-vollstaendig-ohne-menschliches-eingreifen/"
     },
     {
-      "title": "Neuer Algorithmus IdeaLens soll erkennen, ob eine Idee von KI stammt",
-      "summary": "Forscher der University of Maryland und von Google DeepMind haben mit IdeaLens einen Algorithmus vorgestellt, der die Gedankenstruktur statt des Schreibstils auf KI-Herkunft prüft. Bei Texten mit KI-generierter Struktur erkannte IdeaLens die KI-Herkunft in 68 Prozent der Fälle (Stil-Detektor Pangram: unter 10 Prozent); umgekehrt stufte Pangram menschliche Texte auf Basis von KI-Ideen zu bis zu 92,4 Prozent fälschlich als KI-generiert ein, IdeaLens nur zu höchstens 7 Prozent. Preprint auf arXiv (2610.06778), noch nicht peer-reviewed.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Anders-als-Pangram-Kann-man-erkennen-ob-eine-Idee-von-ChatGPT-stammt-11527621.html"
+      "title": "KI simuliert Milchstraße bis auf einzelne Sterne mit 5,4 Billionen Teilchen",
+      "summary": "Forschende um Riken und die Universität Tokio stellten auf der Supercomputing-Konferenz SC26 in Chicago die Simulation \"Pheasant\" vor, die die Milchstraße mit bis zu 5,4 Billionen Teilchen berechnet - eine 1.000- bis 10.000-fache Auflösungssteigerung gegenüber bisherigen Galaxie-Modellen. Das Programm lief auf den Supercomputern Frontier, Aurora (USA) und Jupiter (Jülich); Jupiter verarbeitete mit knapp 21.000 Nvidia-Chips 135 Milliarden Teilchen pro Sekunde. Ein KI-Modell des Riken-Astrophysikers Keiya Hirashima sagt die Gasverteilung nach Sternexplosionen voraus und vergrößert die Zeitschritte von rund 30 auf 2.500 Jahre; der Spitzenlauf umfasste bislang aber nur zehn Testschritte.",
+      "source": "t3n.de",
+      "url": "https://t3n.de/news/milchstrasse-simulation-ki-supercomputer-1774940/"
     }
   ],
   "omitted": [
-    { "title": "ArtCraft lässt KI auf GitHub-Backlogs los", "source": "heise.de", "url": "https://www.heise.de/news/Nach-den-Adobe-Klonen-ArtCraft-laesst-KI-auf-GitHub-Backlogs-los-11528115.html" },
-    { "title": "Apple Intelligence und Siri bald mit Tageslimits", "source": "heise.de", "url": "https://www.heise.de/news/Nutzungsbegrenzungen-Apple-limitiert-bald-KI-Funktionen-und-Siri-AI-11527526.html" },
-    { "title": "\"Frag Maps\": Google verpasst Google Maps eine Portion Gemini", "source": "heise.de", "url": "https://www.heise.de/news/Frag-Maps-Google-verpasst-seinem-Kartendienst-eine-Portion-Gemini-11527482.html" },
-    { "title": "Proton Lumo bekommt Desktop-App mit Zugriff auf Proton Mail", "source": "heise.de", "url": "https://www.heise.de/news/KI-Chatbot-von-Proton-Lumo-bekommt-mit-Desktop-App-Zugriff-auf-Proton-Mail-11527592.html" },
-    { "title": "OpenAI öffnet Cyber-Tool Daybreak für NATO und europäische Verbündete", "source": "the-decoder.de", "url": "https://the-decoder.de/openai-oeffnet-cyber-tool-daybreak-fuer-nato-und-europaeische-verbuendete/" },
-    { "title": "OpenAI lässt GPT-6 als digitalen Sachbearbeiter durch Kliniksoftware klicken", "source": "the-decoder.de", "url": "https://the-decoder.de/openai-laesst-gpt-6-als-digitalen-sachbearbeiter-durch-kliniksoftware-und-versicherungsportale-klicken/" },
-    { "title": "Zahl der Meldungen von KI-generierten Missbrauchsdarstellungen von Kindern steigt stark", "source": "the-decoder.de", "url": "https://the-decoder.de/zahl-der-meldungen-von-ki-generierten-missbrauchsdarstellungen-von-kindern-steigt-binnen-zwei-jahren-um-mehr-als-8-400-prozent/" },
-    { "title": "\"Yonkers Rises\": Wie ein Modell einen Tippfehler richtig deutete (Simon Willison)", "source": "simonwillison.net", "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/" }
+    {
+      "title": "Microsoft bringt USB4-RDMA-Vernetzung für verteilte KI-Modelle auf Windows-11-PCs",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Grosse-KI-Modelle-auf-mehreren-Windows-11-PCs-Microsoft-bringt-USB4-Vernetzung-11534674.html"
+    }
   ]
 }
