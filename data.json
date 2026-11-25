@@ -1,99 +1,90 @@
 {
-  "outFile": "KI-Update-2026-11-24.pptx",
-  "dateLabel": "24. NOVEMBER 2026",
+  "outFile": "KI-Update-2026-11-25.pptx",
+  "dateLabel": "25. NOVEMBER 2026",
   "subtitle": "Praxis-News, Tipps & Tricks, Regulierung und Forschung aus den letzten 24 Stunden",
-  "counts": { "praxis": 4, "tipps": 3, "reg": 4, "forschung": 2 },
+  "counts": { "praxis": 4, "tipps": 3, "reg": 3, "forschung": 2 },
   "praxis": [
     {
-      "title": "OpenAI rollt GPT-6.2 für ChatGPT Plus-Nutzer weltweit aus",
-      "summary": "OpenAI hat GPT-6.2 für ChatGPT-Nutzer mit Plus-Tarif weltweit ausgerollt. Laut heise verbessert das Modell komplexe Anfragen und die Internetrecherche, the-decoder.de nennt zusätzlich ein verbessertes Bildverständnis und sicherere Gesprächsführung. Es handelt sich um die konkrete Produktverfügbarkeit des bereits am 18.11. vorgestellten Modells GPT-6.2 Astra/Sol, jetzt live in ChatGPT.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/OpenAI-veroeffentlicht-GPT-6-2-fuer-ChatGPT-11535524.html"
-    },
-    {
-      "title": "Z.ai veröffentlicht GLM-5.4 mit \"Generalized Coding\"-Architektur",
-      "summary": "Das chinesische Unternehmen Z.ai (Zhipu AI) stellt sein neues Modell GLM-5.4 vor, das Schichten zweimal durchläuft und dies als \"Generalized Coding\" bezeichnet. Belastbare Benchmarks liegen laut Artikel bisher nur für ein kleineres 30-Milliarden-Parameter-Testmodell vor, nicht für das Hauptmodell.",
+      "title": "Anthropic baut Model Context Protocol (MCP) für autonomere KI-Agenten aus",
+      "summary": "Zum zweiten Jahrestag von MCP hat Anthropic mehrere Neuerungen allgemein verfügbar gemacht: \"Tasks\" lassen Server lange Hintergrundaufgaben erledigen, während Claude weiterarbeitet; \"Elicitation\" erlaubt gezielte Rückfragen während eines laufenden Prozesses. Neu in Beta ist \"Skills over MCP\" (zugeschnittenes Fachwissen statt nur Tools) sowie Enterprise Managed Auth für zentrale Serverfreigabe durch Admins. Laut Anthropic gibt es inzwischen über 700 Millionen monatliche SDK-Downloads und mehr als 10.000 MCP-Konnektoren; Tool Search soll den Kontextverbrauch bei mehreren Servern um über 85 Prozent senken.",
       "source": "the-decoder.de",
-      "url": "https://the-decoder.de/z-ai-laesst-glm-5-4-zweimal-rechnen-und-ruft-generalized-coding-aus/"
+      "url": "https://the-decoder.de/anthropic-baut-model-context-protocol-fuer-autonomere-ki-agenten-aus/"
     },
     {
-      "title": "Eclipse Enclave: Sandbox-Laufzeitumgebung für KI-Coding-Agenten",
-      "summary": "Neue Laufzeitumgebung sperrt Coding-Agenten wie Claude Code, Codex und OpenCode in Container ein, um ihnen den Zugriff auf Secrets zu verwehren. Laut Artikel besteht aber kein vollständiger Schutz vor einem Ausbruch aus der Sandbox.",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Keine-Secrets-fuer-Agenten-Eclipse-Enclave-schickt-Agenten-in-die-Sandbox-11534005.html"
+      "title": "Claude Ship: Anthropic lässt KI-Agenten über Code-Freigaben entscheiden",
+      "summary": "Das neue Beta-Tool kombiniert die bestehende Code-Review-Funktion mit zwei Agenten: \"PR Steward\" überarbeitet Entwürfe eigenständig bei fehlschlagenden Tests oder Reviewer-Kommentaren, \"Claude Approvals\" entscheidet anhand einer Policy-Datei im Projektordner, ob eine Änderung automatisch oder nur mit menschlicher Zustimmung freigegeben wird. Mit aktiviertem GitHub-Auto-Merge kann Code laut Dokumentation ganz ohne Menschen gemerged werden. Verfügbar in Team- und Enterprise-Plänen, separat nach Tokenverbrauch abgerechnet; PR Steward hat standardmäßig kein Ausgabenlimit, Admins können aber Budgets setzen.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/claude-ship-anthropic-laesst-ki-agenten-ueber-code-freigaben-entscheiden/"
     },
     {
-      "title": "Signal führt Sperre gegen neugierige KI-Assistenten ein",
-      "summary": "Eine neue Funktion im Messenger Signal soll verhindern, dass auf dem Gerät laufende KI-Assistenten, etwa eine Betriebssystem-KI, Signal-Nachrichten mitlesen können.",
+      "title": "Shirudo: OpenAI und Cisco stellen offenes KI-Schutzschild für Linux-Server vor",
+      "summary": "Die quelloffene Plattform lässt KI-Agenten temporäre, eBPF-basierte Schutzprogramme gegen bekannte Lücken entwickeln, bis reguläre Patches installiert sind - im Idealfall ohne Neustart der Anwendung. Zur Demonstration ließ OpenAIs Codex-Agent für die Lücke \"Java4Shell\" eine Eingabeprüfung schreiben, die in einer laufenden Elasticsearch-Instanz einen Angriff abwehrte, ohne den Dienst neu zu starten. Programme müssen kryptografisch signiert sein und werden vom Kernel-eigenen eBPF-Verifier geprüft; ein TPM protokolliert geladene Maßnahmen. Shirudo ist eine Weiterentwicklung von Tetragon (Isovalent/Cisco), modellunabhängig und noch in früher Entwicklung.",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/Messenger-Signal-Sperre-fuer-neugierige-KI-Assistenten-11534436.html"
+      "url": "https://www.heise.de/news/Shirudo-OpenAI-und-Cisco-stellen-KI-Schutzschild-fuer-Linux-Server-vor-11535772.html"
+    },
+    {
+      "title": "Anthropic macht Claude Artifacts zu eigenständigen Desktop-Apps für macOS und Windows",
+      "summary": "Ein im Chat erstelltes Artifact lässt sich jetzt als Beta-Funktion ohne Programmierkenntnisse als eigenständige Desktop-App im Dock behalten - vorausgesetzt ist die aktuelle Claude-App für macOS oder Windows. Die Apps greifen auf Betriebssystem-Schnittstellen, Konnektoren und Claude selbst zu, können eigene Menüleisten-Einträge, transparente Fenster und Benachrichtigungen erzeugen; als Beispiele nennt Anthropic eigene Terminals, Dateimanager und Video-Editoren. Für die Nutzung reicht laut Anthropic-Mitarbeiter Felix Rieseberg ein kostenloses Claude-Konto.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/anthropic-macht-claude-artifacts-zu-eigenstaendigen-desktop-apps-fuer-macos-und-windows/"
     }
   ],
   "tipps": [
     {
-      "title": "Entscheidungshoheit bei KI-Projekten bleibt beim Menschen",
-      "summary": "In seiner Serie zum KI-gestützten Rust-Server \"Muru\" betont Simon Willison das Prinzip, die KI liefere zwar den Code, aber die Entscheidung, was noch nicht gut genug ist, bleibe bewusst bei ihm selbst (\"deciding what isn't good enough yet is still down to me\"). Eine übertragbare Haltung für den eigenen Umgang mit Coding-Agenten: KI generiert, der Mensch urteilt.",
+      "title": "Drei Wendepunkte bei KI-Coding-Agenten in zwölf Monaten",
+      "summary": "Simon Willison fasst in einer Keynote-Nachschrift mehrere übertragbare Denkmuster zusammen: Statt Einzelschritte vorzugeben, sollte man dem Modell ein Ziel und passende Werkzeuge geben und es selbst vorgehen lassen (\"Give it a goal, give it the right tools, and watch it cook\"). Qualitätsmaßstäbe bei subjektiven Kriterien macht man am besten durch direktes Feedback explizit, statt sie unausgesprochen zu lassen. Vertrauen in Agenten sollte man schrittweise aufbauen: Erst als Standardergebnisse meist stimmten, wurde Claude Code für ihn zum echten Beschleuniger statt zur Fehlerquelle.",
       "source": "simonwillison.net",
-      "url": "https://simonwillison.net/2026/Nov/21/muru/"
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
     },
     {
-      "title": "Vergleichsseiten per KI generieren lassen",
-      "summary": "Simon Willison zeigt einen wiederverwendbaren Prompt an Claude (\"Build an HTML page that shows all of the ways a select box can be styled\"), um sich schnell eine Referenz-/Vergleichsseite für Browser-Eigenheiten bauen zu lassen, statt dafür manuell zu recherchieren. Die Methode lässt sich auf beliebige andere CSS-/Browser-Vergleichsfragen übertragen.",
-      "source": "simonwillison.net",
-      "url": "https://simonwillison.net/2026/Nov/22/select-styling/"
+      "title": "Feste morgendliche KI-Session zur Tagesplanung vor dem Blick in Nachrichten",
+      "summary": "Statt morgens sofort E-Mails und Nachrichten zu prüfen, schiebt t3n-Autor Markus Albers zuerst eine feste KI-Session zur Tagesplanung ein - laut Bildunterschrift per Sprachnotiz an einen KI-Sparringspartner, der daraus einen Tagesplan ableitet. Das konkrete Setup steht hinter einer Paywall, das übertragbare Grundprinzip - eine feste KI-Routine vor dem ersten Blick in Nachrichten statt direkt reaktiv zu starten - lässt sich aber auch ohne die Artikeldetails anwenden.",
+      "source": "t3n.de",
+      "url": "https://t3n.de/news/morgens-erst-claude-dann-mails-wie-ich-mir-einen-ki-assistenten-gebaut-habe-und-damit-arbeite-1772873/"
     },
     {
-      "title": "Fester Vergleichs-Prompt als Modell-Benchmark-Methode",
-      "summary": "Simon Willison nutzt denselben festen Prompt (eine Animationsaufgabe) wiederholt über verschiedene neue Modelle hinweg, um deren Fähigkeiten direkt vergleichbar zu machen. Eine einfach übertragbare Methode für eigene Modellvergleiche, statt jedes Modell mit wechselnden Einzeltests zu prüfen.",
+      "title": "Hypothesengeleitete KI-Recherche mit minimalem Prompting",
+      "summary": "Ein von Simon Willison aufgegriffenes Fallbeispiel: Historiker Mark Humphries ließ GPT-6.2 Astra mit nur minimaler Anweisung (\"with only minimal prompting\") selbstständig in frei zugänglichen Primär- und Sekundärquellen recherchieren; binnen 22 Minuten schlug das Modell einen plausiblen Urheber für ein anonymes Skizzenbuch von 1808 vor, samt passendem Tagebucheintrag und einem konkreten weiteren Archiv zur Prüfung. Das übertragbare Muster: dem Modell eine offene Fragestellung samt Quellenzugriff geben, statt selbst stundenlang zu suchen. Einzelfall ohne Angaben zum genauen Prompt oder zur Wiederholbarkeit.",
       "source": "simonwillison.net",
-      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/"
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
     }
   ],
   "reg": [
     {
-      "title": "Chinesische Militärforscher sehen nukleare Abschreckung durch KI in Gefahr",
-      "summary": "Laut einer von the-decoder.de aufgegriffenen NYT-Analyse befürchten Forscher der Akademie für Militärwissenschaften in Peking, KI könnte den USA das Aufspüren und Ausschalten chinesischer Nuklearraketen erleichtern und so Chinas Zweitschlagfähigkeit untergraben. Sie halten es für möglich, dass sich die US-Entscheidungszeit dadurch von 15-30 Minuten auf 90 Sekunden verkürzt. China verfügt laut Federation of American Scientists über rund 620 einsatzfähige Sprengköpfe, geplant rund 1.000 bis 2030; bei KI-Sicherheitsmechanismen für Nuklearsysteme gibt es zwischen USA und China kaum Fortschritte.",
-      "source": "the-decoder.de",
-      "url": "https://the-decoder.de/chinesische-militaerforscher-sehen-nukleare-abschreckung-durch-ki-in-gefahr/"
-    },
-    {
-      "title": "OpenAI-Chefwissenschaftler fordert gemeinsame Sicherheitslimits der Labore",
-      "summary": "Jakub Pachocki schlug vor, die interne Log-Perplexity der GPT-Reihe als branchenweite Fortschrittsmetrik zu etablieren: GPT-3.5 liegt bei rund 0,986, GPT-4 bei 0,913, GPT-6.2 Astra bei 0,761, ein internes Modell bei 0,732 (niedriger = fähiger). Fähigkeiten traten laut Pachocki an festen Schwellen auf, etwa Chain-of-Thought-Reasoning bei GPT-4 und transformative Cybersecurity-/Mathematik-Fähigkeiten unterhalb von 0,8. Er fordert, führende Labore sollten gemeinsame Grenzwerte festlegen, bis Methoden zur Verhaltensüberwachung von KI ausgereift sind.",
-      "source": "the-decoder.de",
-      "url": "https://the-decoder.de/openai-chefwissenschaftler-legt-interne-fortschrittsmetrik-offen-und-fordert-gemeinsame-sicherheitslimits/"
-    },
-    {
-      "title": "KIMVG-Anhörung: Experten fürchten mehr Klagen statt kürzerer Verfahren",
-      "summary": "Bei der Bundestags-Anhörung zum KI-Migrationsverwaltungsgesetz (KIMVG) warnten Sachverständige, der Entwurf könnte mehr Fehlentscheidungen, Klagen und längere Verfahren statt der erhofften Beschleunigung verursachen. Kritisiert wurde, dass sensible Asyldaten auch ohne Anonymisierung für KI-Training genutzt werden dürfen und die Befugnisse zu unbestimmt sind; Informatiker Alexander Steen warnte vor übermäßigem Vertrauen in KI-Empfehlungen, Eric Töpfer forderte eine unabhängige wissenschaftliche Evaluierung. Ein Termin für die zweite/dritte Lesung steht noch nicht fest, eine Verabschiedung vor Jahresende ist aber möglich.",
+      "title": "Cloud and AI Development Act: Positionsentwurf des Europaparlaments liegt vor",
+      "summary": "Für den geplanten \"Cloud and AI Development Act\" (CADA) haben die Berichterstatter Diego Solier und Reinier van Lanschot einen Positionsentwurf mit 366 Änderungsanträgen vorgelegt, der in Teilen deutlich über den Kommissionsvorschlag hinausgeht - noch nicht die endgültige Parlamentsposition. Vorgesehen sind vier Souveränitätsstufen für NIS2-erfasste Einrichtungen (ab Stufe 3 schwierig für Nicht-EU-Anbieter), eine Mindestgewichtung von 20 Prozent für europäische Cloud-/KI-Dienste bei öffentlichen Vergaben sowie ein Sonderkündigungsrecht für Verträge der öffentlichen Hand ohne Entschädigung bei fehlender Souveränitätskonformität.",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/KI-Migrationsgesetz-Experten-fuerchten-mehr-Klagen-statt-kuerzerer-Verfahren-11535154.html"
+      "url": "https://www.heise.de/news/Cloud-und-KI-Gesetz-Positionsentwurf-des-Europaparlaments-liegt-endlich-vor-11535512.html"
     },
     {
-      "title": "Nvidia-Affäre: USA verhängen Handelsverbot über Megaspeed",
-      "summary": "Das US-Handelsministerium setzt sieben Firmen in Singapur, Thailand und Malaysia auf die schwarze Liste, darunter sechs aus dem Megaspeed-Geflecht; ab Mittwoch gilt ein Handelsembargo auch für Waren mit US-Bestandteilen. Megaspeed soll Nvidia-KI-Prozessoren über Rechenzentren/Vermietung nach China umgangen haben, finanziert von einer Alibaba-Tochter. Nvidia hatte die Lieferungen bereits im Juni 2025 gestoppt; der Fall setzt die bereits mehrfach gemeldete Verschärfung der US-Chip-Exportkontrollen fort.",
+      "title": "Update: Killer-Roboter-Debatte - 163 Staaten fordern Verbot, \"Koalition der Willigen\" im Gespräch",
+      "summary": "Nachtrag zur CCW-Konferenz vom 21.11., die nur mit einem Minimalkonsens endete: 163 UN-Mitgliedstaaten forderten per Resolution eine rechtsverbindliche Regelung, USA, Russland und Israel lehnen das grundsätzlich ab. Deutschland ist laut Auswärtigem Amt zu Verhandlungen über ein verbindliches Protokoll bereit und wirbt mit Frankreich für einen zweistufigen Ansatz. Als Alternative zum Konsenszwang der CCW wird eine \"Koalition der Willigen\" diskutiert, mit Verweis auf die Vorbilder Oslo (Streumunition) und Ottawa (Antipersonenminen).",
       "source": "heise.de",
-      "url": "https://www.heise.de/news/Nvidia-Affaere-USA-verhaengen-Handelsverbot-ueber-Megaspeed-11535434.html"
+      "url": "https://www.heise.de/news/Streit-um-Killer-Roboter-Zivilgesellschaft-fordert-eine-Koalition-der-Willigen-11535604.html"
+    },
+    {
+      "title": "Bericht: Mitarbeitende von Anthropic und OpenAI warnen vor zu gefährlichen internen KI-Modellen",
+      "summary": "Laut einem Axios-Bericht vom 24.11., auf den sich the-decoder.de stützt, sorgen sich Beschäftigte bei OpenAI und Anthropic, dass unveröffentlichte interne Spitzenmodelle der menschlichen Kontrolle entgleiten könnten; viele halten sie für zu leistungsfähig, um sie sicher an die Öffentlichkeit zu geben, intern werde über einen Freigabestopp diskutiert. Axios beruft sich auf \"mehr als zwei Dutzend Insider\"; konkrete Modellnamen, Vorfälle oder namentlich zitierte Personen nennt der sichtbare Text nicht - die Aussage bleibt vage, stammt aber aus einer konkret benannten, prüfbaren Quelle.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/mitarbeitende-von-anthropic-und-openai-warnen-interne-ki-modelle-werden-zu-gefaehrlich-fuer-eine-freigabe/"
     }
   ],
   "forschung": [
     {
-      "title": "GPT-6.2 Astra beweist Lückensatz vollständig ohne menschliches Eingreifen",
-      "summary": "Laut Vals AI lieferte OpenAIs GPT-6.2 Astra auf dem Benchmark Autoform-Hard einen formalisierten, in der Beweisassistenz-Sprache Lean maschinell überprüfbaren Beweis für Smoktunowicz' Lückensatz von 2006 - laut Vals der erste bekannte Lean-Beweis dieses Satzes. Nach insgesamt 94 Minuten und 21,58 Dollar Rechenkosten stand ein rund 1.800-Zeilen-Beweis; nach 47 Minuten und 8 Dollar hätte das System fast aufgegeben. Ein anderes Theorem als der Mitte November gemeldete Beweis zum Gitter-Standardmodell der Teilchenphysik.",
-      "source": "the-decoder.de",
-      "url": "https://the-decoder.de/gpt-6-2-astra-beweist-komplexes-mathe-theorem-vollstaendig-ohne-menschliches-eingreifen/"
+      "title": "VP ungleich VNP: Anthropic und OpenAI veröffentlichen fast gleichzeitig Beweise",
+      "summary": "Anthropic veröffentlichte am 23.11. ein 70-seitiges Paper mit einem Beweis der VP-VNP-Vermutung (algebraisches Gegenstück zum P-NP-Problem, 1979 von Leslie Valiant aufgestellt) - erarbeitet von einem internen Claude-Forschungsmodell, das als Autor genannt ist. OpenAI legte wenige Stunden später ein 30-seitiges Paper vor, hatte das Resultat nach eigener Angabe aber schon am 6.11. erzielt. Beide veröffentlichten zusätzlich Lean-Formalisierungen; Anthropics Beweis bestand laut eigener Angabe die Prüfung mit dem Beweisprüfer nanoda. Eine unabhängige fachliche Bestätigung beider Arbeiten steht noch aus.",
+      "source": "heise.de",
+      "url": "https://www.heise.de/news/Mathe-Wettlauf-Anthropic-und-OpenAI-mit-fast-zeitgleichen-Beweisen-fuer-VP-VNP-11536640.html"
     },
     {
-      "title": "KI simuliert Milchstraße bis auf einzelne Sterne mit 5,4 Billionen Teilchen",
-      "summary": "Forschende um Riken und die Universität Tokio stellten auf der Supercomputing-Konferenz SC26 in Chicago die Simulation \"Pheasant\" vor, die die Milchstraße mit bis zu 5,4 Billionen Teilchen berechnet - eine 1.000- bis 10.000-fache Auflösungssteigerung gegenüber bisherigen Galaxie-Modellen. Das Programm lief auf den Supercomputern Frontier, Aurora (USA) und Jupiter (Jülich); Jupiter verarbeitete mit knapp 21.000 Nvidia-Chips 135 Milliarden Teilchen pro Sekunde. Ein KI-Modell des Riken-Astrophysikers Keiya Hirashima sagt die Gasverteilung nach Sternexplosionen voraus und vergrößert die Zeitschritte von rund 30 auf 2.500 Jahre; der Spitzenlauf umfasste bislang aber nur zehn Testschritte.",
-      "source": "t3n.de",
-      "url": "https://t3n.de/news/milchstrasse-simulation-ki-supercomputer-1774940/"
+      "title": "Update: Riemann-Vermutung - Alpöge räumt Fehler bei der Kommunikation ein, hält Beweis für gültig",
+      "summary": "Nachtrag zum am 22.11. von der Lean-Community offiziell bestätigten KI-gestützten Beweis der Riemannschen Vermutung: Anthropic-Forscher Levent Alpöge hält in einem Social-Media-Post (\"Dumme Dinge, die ich getan habe\") an der mathematischen Gültigkeit seines mit Claude erarbeiteten Beweises fest, räumt aber ein, dass zentrale Aussagen zum Arbeitsumfang bei der ursprünglichen Veröffentlichung als Scherz gemeint waren und der zugehörige Code unbereinigt veröffentlicht wurde. Die Lean-Bestätigung vom 22.11. wird dadurch nicht infrage gestellt.",
+      "source": "the-decoder.de",
+      "url": "https://the-decoder.de/anthropic-forscher-haelt-an-ki-beweis-fuer-riemannsche-vermutung-fest-raeumt-aber-peinliche-fehler-ein/"
     }
   ],
   "omitted": [
-    {
-      "title": "Microsoft bringt USB4-RDMA-Vernetzung für verteilte KI-Modelle auf Windows-11-PCs",
-      "source": "heise.de",
-      "url": "https://www.heise.de/news/Grosse-KI-Modelle-auf-mehreren-Windows-11-PCs-Microsoft-bringt-USB4-Vernetzung-11534674.html"
-    }
+    { "title": "Google ersetzt Suchbutton auf der Startseite durch KI-Seitenleiste im KI-Modus", "source": "heise.de", "url": "https://www.heise.de/news/Google-fuehrt-eine-neue-Suchseite-mit-KI-Seitenleiste-ohne-Suchbutton-ein-11536330.html" },
+    { "title": "OpenAI-Forscher Noam Brown über GPT-6 Astra, Chain-of-Thought und Studienabbruch", "source": "the-decoder.de", "url": "https://the-decoder.de/openai-forscher-noam-brown-ueber-gpt-6-astra-chain-of-thought-und-studienabbruch/" }
   ]
 }
